@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "--batch_size","1",
+                "--img_size","448",
+                "--num_classes","11",
+                "--distance_loss","l1",
+                "--iou_loss","giou",
+                "--optimizer","AdamW",
+                "--milestones","70","95",
+                //"--augment","SmallObjectAugmentation",
+                "--backbone","resnet50",
+                "--coco_path","../../data-1/",
+                "--cam",
+                //"--resume","runs/r50/checkpoint.pth",
+                //"--res_query",
+                //"--sahi",
+                //"--mixup",
+                //"--eval",
+            ]
+        }
+    ]
+}

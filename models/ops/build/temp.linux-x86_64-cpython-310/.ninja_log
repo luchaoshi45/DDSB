@@ -1,0 +1,8 @@
+# ninja log v5
+45	12346	1679739068711674600	/mnt/e/Main/DDSA/models/ops/build/temp.linux-x86_64-cpython-310/mnt/e/Main/DDSA/models/ops/src/cpu/ms_deform_attn_cpu.o	9167bab53323bf65
+119	24179	1679739080554746000	/mnt/e/Main/DDSA/models/ops/build/temp.linux-x86_64-cpython-310/mnt/e/Main/DDSA/models/ops/src/vision.o	9a3f464ec89a0f94
+159	9527	1679739265165839400	/mnt/e/Main/DDSA/models/ops/build/temp.linux-x86_64-cpython-310/mnt/e/Main/DDSA/models/ops/src/cpu/ms_deform_attn_cpu.o	62df3c90004e59d7
+190	17805	1679739273461658500	/mnt/e/Main/DDSA/models/ops/build/temp.linux-x86_64-cpython-310/mnt/e/Main/DDSA/models/ops/src/vision.o	b539d46ec2b483f8
+65	10080	1679746251784519600	/mnt/e/Main/DDSA/models/ops/build/temp.linux-x86_64-cpython-310/mnt/e/Main/DDSA/models/ops/src/cpu/ms_deform_attn_cpu.o	cb4eaf8acb894193
+85	19925	1679746261613596600	/mnt/e/Main/DDSA/models/ops/build/temp.linux-x86_64-cpython-310/mnt/e/Main/DDSA/models/ops/src/vision.o	dd5407547eba0302
+76	24230	1679746265928434600	/mnt/e/Main/DDSA/models/ops/build/temp.linux-x86_64-cpython-310/mnt/e/Main/DDSA/models/ops/src/cuda/ms_deform_attn_cuda.o	b047d56379c3b8dc

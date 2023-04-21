@@ -1,0 +1,19 @@
+cd DDSB
+
+pip install --upgrade pip
+pip install -r requirements.txt
+cd models/ops
+sh make.sh
+cd ../..
+chmod -R 777 configs/*
+
+
+bash configs/r50/rq_sahi_r50.sh
+
+CUDA_VISIBLE_DEVICES=0 bash configs/all/rq_sahi_swin_eval.sh &
+
+
+
+CUDA_VISIBLE_DEVICES=2 nohup python main.py --backbone resnet50 > out.log 2>&1 & 
+# 测试
+python infer.py --batch_size 1 --resume runs/checkpoint.pth 
